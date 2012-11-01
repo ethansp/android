@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.com" />
+  
+  <remote  name="ethansp"
+           fetch="git://github.com/ethansp"
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -36,6 +39,8 @@
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
+  <project path="device/lge/p990" name="android_device_lge_p990" remote="ethansp" revision="jellybean" />
+  <project path="device/lge/star-common" name="android_device_lge_star-common" remote="ethansp" revision="jellybean" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
@@ -230,6 +235,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/lge/star" name="lge-kernel-star" remote="ethansp" revision="jellybean" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
